@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chars et="UTF-8">
+        <meta name = " viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>SAFIYA BIKE RENTALS</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="path"></div>
+            <ul>
+                <li><a href="#"">HOME</a></li>
+                <li><a href="#"">SERVICES</a></li>
+                <li><a href="#"">CONTACT</a></li>
+                <li><a href="#"">ABOUT US</a></li>
+            </ul>
+            <div class="thumbnail">
+                <li><img src="rs200.png" onclick="big('rs200.png');"></li>
+                <li><img src="bike2.png" onclick="big('bike2.png');"</li>
+                <li><img src="beneli300.png"onclick="big('beneli300.png');"></li>
+            </div>
+            <div class="big-img">
+                <img src="bike5.png"class=".big">
+            </div>
+            <div class="content">
+                <p>RENT YOUR DREAM BIKE FOR A RIDE</p>   
+            </div>
+        </div>
+    </body>
+    <script>
+        function big(img){
+            document.querySelector('.big').src=img;
+        }
+    </script>
+</html>
